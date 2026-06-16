@@ -1,4 +1,5 @@
-# Reflexive Communications – PHP próbamunka
+Reflexive Communications
+PHP próbamunka
 
 Kapcsolatfelvételi űrlap beküldéseinek feldolgozása egy tiszta, jól tesztelhető
 PHP service class segítségével. A megoldás validálja a beérkező adatokat, kezeli
