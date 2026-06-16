@@ -1,0 +1,31 @@
+{
+    "name": "reflexive/contact-form-processor",
+    "description": "Contact form submission processor for reflexivecommunications.hu (PHP trial task).",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reflexive\\ContactForm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reflexive\\ContactForm\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:unit": "phpunit --testsuite Unit",
+        "test:integration": "phpunit --testsuite Integration"
+    },
+    "minimum-stability": "stable"
+}
