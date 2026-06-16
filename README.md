@@ -6,8 +6,8 @@ PHP service class segítségével. A megoldás validálja a beérkező adatokat,
 a kontaktokat (e-mail alapján egyedi), és a tényleges adatbázis-műveleteket
 repository interfészeken keresztül delegálja.
 
-A repository-k konkrét (adatbázis-alapú) implementációja – a kiírásnak
-megfelelően – **nem** része a megoldásnak; a teszteléshez in-memory
+A repository-k konkrét (adatbázis-alapú) implementációja, a kiírásnak
+megfelelően **nem** része a megoldásnak; a teszteléshez in-memory
 implementációk készültek (`tests/Support/`).
 
 ## Követelmények
